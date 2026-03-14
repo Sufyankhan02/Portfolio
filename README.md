@@ -2,7 +2,7 @@
 
 Welcome to the source code of my immersive 3D portfolio website. This project showcases a blend of modern web technologies, interactive 3D graphics, and smooth animations to create a premium user experience.
 
-![Portfolio-Preview](public/images/preview.png)
+![Portfolio-Preview](public/images/previews.png)
 
 ## ✨ Features
 

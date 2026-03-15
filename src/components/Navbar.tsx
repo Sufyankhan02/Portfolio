@@ -4,7 +4,6 @@ import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 // @ts-ignore
 import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
-import SufyanLogo from "./SufyanLogo";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
@@ -45,7 +44,7 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          <SufyanLogo />
+          SK
         </a>
         <a
           href="mailto:developersufyankhan@gmail.com"

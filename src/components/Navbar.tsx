@@ -2,11 +2,13 @@ import { useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
+// @ts-ignore
 import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
+import SufyanLogo from "./SufyanLogo";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
-export let smoother: ScrollSmoother;
+export let smoother: any;
 
 const Navbar = () => {
   useEffect(() => {
@@ -43,7 +45,7 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          SK
+          <SufyanLogo />
         </a>
         <a
           href="mailto:developersufyankhan@gmail.com"

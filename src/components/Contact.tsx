@@ -1,4 +1,4 @@
-import { MdArrowOutward, MdCopyright } from "react-icons/md";
+import { MdArrowOutward, MdCopyright, MdPayment } from "react-icons/md";
 import "./styles/Contact.css";
 
 const Contact = () => {
@@ -16,6 +16,15 @@ const Contact = () => {
             </p>
             <h4>Education</h4>
             <p>B.E Computer Science and Engineering</p>
+            <h4>Support</h4>
+            <a
+              href="https://buy.stripe.com/test_fyc5kX0T"
+              target="_blank"
+              data-cursor="disable"
+              className="contact-payment"
+            >
+              Support My Work <MdPayment />
+            </a>
           </div>
           <div className="contact-box">
             <h4>Social</h4>

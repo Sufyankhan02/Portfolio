@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/gtm/:path*",
+      "destination": "https://www.googletagmanager.com/:path*"
+    },
+    {
+      "source": "/ga/:path*",
+      "destination": "https://www.google-analytics.com/:path*"
+    }
+  ]
+}

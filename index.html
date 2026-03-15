@@ -44,13 +44,15 @@
     }
   </script>
 
-  <!-- Google Analytics (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-06X6JPH184"></script>
+  <!-- Google Analytics (gtag.js) - Proxied via Vercel to bypass ad-blockers -->
+  <script async src="/gtm/gtag/js?id=G-06X6JPH184"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', 'G-06X6JPH184');
+    gtag('config', 'G-06X6JPH184', {
+      'transport_url': window.location.origin + '/ga'
+    });
   </script>
 </head>
 
